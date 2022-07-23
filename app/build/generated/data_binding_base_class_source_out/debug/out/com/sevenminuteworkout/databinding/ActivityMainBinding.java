@@ -25,11 +25,15 @@ public final class ActivityMainBinding implements ViewBinding {
   @NonNull
   public final FrameLayout flyout;
 
+  @NonNull
+  public final FrameLayout historyly;
+
   private ActivityMainBinding(@NonNull LinearLayout rootView, @NonNull FrameLayout bmily,
-      @NonNull FrameLayout flyout) {
+      @NonNull FrameLayout flyout, @NonNull FrameLayout historyly) {
     this.rootView = rootView;
     this.bmily = bmily;
     this.flyout = flyout;
+    this.historyly = historyly;
   }
 
   @Override
@@ -71,7 +75,13 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityMainBinding((LinearLayout) rootView, bmily, flyout);
+      id = R.id.historyly;
+      FrameLayout historyly = ViewBindings.findChildViewById(rootView, id);
+      if (historyly == null) {
+        break missingId;
+      }
+
+      return new ActivityMainBinding((LinearLayout) rootView, bmily, flyout, historyly);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

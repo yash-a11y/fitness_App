@@ -203,4 +203,10 @@ class bmiActivity : AppCompatActivity() {
         bind?.tvBmiTxt?.text = bmiLabel // Label is set to TextView
         bind?.tvBmiMsg?.text = bmiDescription // Description is set to TextView
     }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        bind = null
     }
+    }
+

@@ -1,20 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\android\\android developer\\7MinutesWorkout_v2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
+            "outputFile": "com.sevenminuteworkout.app-mergeDebugResources-20:/values-land/values-land.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-3\\3cafc25c0d498a793c33cac3e7a6b398\\transformed\\appcompat-1.1.0\\res\\values-land\\values-land.xml",
-                    "from": {
-                        "startLines": "2,3,4",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "55,125,196",
-                        "endColumns": "69,70,67",
-                        "endOffsets": "120,191,259"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-3\\ee1e1f3f16d14d8fc4ee4c7324494639\\transformed\\material-1.0.0\\res\\values-land\\values-land.xml",
+                    "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-3\\59c012ad2a5d432d86d661201d585841\\transformed\\material-1.0.0\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -30,6 +20,16 @@
                         "endLines": "8",
                         "endColumns": "10",
                         "endOffsets": "431"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-3\\ad766b94545ba2d29ad326bcc4bf902a\\transformed\\appcompat-1.1.0\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,125,196",
+                        "endColumns": "69,70,67",
+                        "endOffsets": "120,191,259"
                     }
                 }
             ]

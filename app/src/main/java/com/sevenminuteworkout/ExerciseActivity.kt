@@ -37,9 +37,9 @@ class ExerciseActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
     private var actff : FrameLayout ?=null
 
     private var EXtimer : CountDownTimer ?= null
-    private var exercise_Timer : Long = 30000
+    private var exercise_Timer : Long = 1000
     private var tv_timer_ex : TextView ?= null
-    private var Progress_timer : Long = 10000
+    private var Progress_timer : Long = 1000
     private var EXprogressbar : ProgressBar ?= null
     private var exff : FrameLayout ?= null
 

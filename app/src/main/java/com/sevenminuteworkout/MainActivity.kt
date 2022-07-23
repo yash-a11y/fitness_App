@@ -25,8 +25,7 @@ class MainActivity : AppCompatActivity() {
 
         // Click event for start Button which we have created in XML.
         bindding?.flyout?.setOnClickListener {
-            //TODO(Step 11 - On Start button click navigate it to the Exercise Activity.)
-            //START
+
             val intent = Intent(this, ExerciseActivity::class.java)
             startActivity(intent)
             //END
@@ -39,6 +38,10 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        bindding?.historyly?.setOnClickListener{
+            val intent = Intent(this,HistoryActivity::class.java)
+            startActivity(intent)
+        }
         //
     }
 

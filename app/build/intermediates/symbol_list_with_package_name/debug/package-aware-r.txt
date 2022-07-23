@@ -1049,6 +1049,7 @@ drawable design_snackbar_background
 drawable ic_abdominal_crunch
 drawable ic_check
 drawable ic_high_knees_running_in_place
+drawable ic_history
 drawable ic_jumping_jacks
 drawable ic_launcher_background
 drawable ic_launcher_foreground
@@ -1216,6 +1217,7 @@ id gone
 id group_divider
 id groups
 id heightinpt
+id historyly
 id home
 id homeAsUp
 id icon
@@ -1229,6 +1231,7 @@ id info
 id invisible
 id italic
 id item_touch_helper_previous_elevation
+id itemhistory_ly
 id labeled
 id labelupcoming
 id largeLabel
@@ -1274,6 +1277,7 @@ id rcyl
 id right
 id right_icon
 id right_side
+id rvHistory
 id save_image_matrix
 id save_non_transition_alpha
 id save_scale_type
@@ -1339,6 +1343,7 @@ id title
 id titleDividerNoCustom
 id title_template
 id toolbar_exercise_activity
+id toolbar_history_activity
 id top
 id topPanel
 id touch_outside
@@ -1347,6 +1352,10 @@ id transition_layout_save
 id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
+id tvHistory
+id tvItem
+id tvNoDataAvailable
+id tvPosition
 id tvTimer
 id tvTimer_exe
 id tv_bmi
@@ -1371,6 +1380,9 @@ id upcoming
 id us_unit
 id useLogo
 id view_offset_helper
+id view_tree_lifecycle_owner
+id view_tree_saved_state_registry_owner
+id view_tree_view_model_store_owner
 id visible
 id weight_pound_inpt
 id weightinpt
@@ -1434,6 +1446,7 @@ layout abc_tooltip
 layout activity_bmi
 layout activity_exercise
 layout activity_finish
+layout activity_history
 layout activity_main
 layout bach_conformation_dialog
 layout custom_dialog
@@ -1451,6 +1464,8 @@ layout design_navigation_item_subheader
 layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_password_icon
+layout item_exercise_status
+layout item_history
 layout items
 layout mtrl_layout_snackbar
 layout mtrl_layout_snackbar_include
