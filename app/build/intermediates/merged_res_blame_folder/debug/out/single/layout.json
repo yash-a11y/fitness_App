@@ -1,5 +1,13 @@
 [
     {
+        "merged": "E:\\android\\android developer\\7MinutesWorkout_v2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_row.xml",
+        "source": "E:\\android\\android developer\\7MinutesWorkout_v2\\app\\src\\main\\res\\layout\\item_row.xml"
+    },
+    {
+        "merged": "E:\\android\\android developer\\7MinutesWorkout_v2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_history.xml",
+        "source": "E:\\android\\android developer\\7MinutesWorkout_v2\\app\\src\\main\\res\\layout\\activity_history.xml"
+    },
+    {
         "merged": "E:\\android\\android developer\\7MinutesWorkout_v2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_bmi.xml",
         "source": "E:\\android\\android developer\\7MinutesWorkout_v2\\app\\src\\main\\res\\layout\\activity_bmi.xml"
     },
