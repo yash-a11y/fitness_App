@@ -346,6 +346,7 @@ class ExerciseActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
     override fun onBackPressed() {
 
         onbackpresses()
+        onDestroy()
     }
 
 

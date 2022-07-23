@@ -9,7 +9,8 @@
         android:targetSdkVersion="32" />
 
     <application
-        android:allowBackup="false"
+        android:name="com.sevenminuteworkout.WorkOutApp"
+        android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
         android:icon="@mipmap/ic_launcher"
@@ -22,6 +23,9 @@
             android:name="com.sevenminuteworkout.bmiActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.sevenminuteworkout.HistoryActivity"
+            android:exported="false" />
         <activity
             android:name="com.sevenminuteworkout.finish"
             android:exported="false" />
@@ -42,6 +46,11 @@
             android:name="com.sevenminuteworkout.ExerciseActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+
+        <service
+            android:name="androidx.room.MultiInstanceInvalidationService"
+            android:directBootAware="true"
+            android:exported="false" />
     </application>
 
 </manifest>
