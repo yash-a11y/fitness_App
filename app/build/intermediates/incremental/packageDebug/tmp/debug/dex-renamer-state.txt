@@ -1,12 +1,12 @@
-#Sat Jul 23 21:51:59 IST 2022
+#Wed Feb 12 15:59:33 EST 2025
 path.3=3/classes.dex
 path.2=1/classes.dex
 path.1=0/classes.dex
 path.0=classes.dex
-base.3=E\:\\android\\android developer\\7MinutesWorkout_v2\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\3\\classes.dex
-base.2=E\:\\android\\android developer\\7MinutesWorkout_v2\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\1\\classes.dex
-base.1=E\:\\android\\android developer\\7MinutesWorkout_v2\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.0=E\:\\android\\android developer\\7MinutesWorkout_v2\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.3=C\:\\Users\\Yash\\StudioProjects\\fitness_App\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\3\\classes.dex
+base.2=C\:\\Users\\Yash\\StudioProjects\\fitness_App\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\1\\classes.dex
+base.1=C\:\\Users\\Yash\\StudioProjects\\fitness_App\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.0=C\:\\Users\\Yash\\StudioProjects\\fitness_App\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 renamed.3=classes4.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
