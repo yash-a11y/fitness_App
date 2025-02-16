@@ -1,15 +1,13 @@
 apply plugin: 'com.android.application'
-
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-kapt'
-apply plugin: 'kotlin-android-extensions'
 
 android {
-    compileSdkVersion 32 //29
+    compileSdkVersion 33
     defaultConfig {
         applicationId "com.sevenminuteworkout"
         minSdkVersion 21
-        targetSdkVersion 32 //29
+        targetSdkVersion 33
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
@@ -19,37 +17,44 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
-
-
     }
-    buildFeatures
-            {
-                viewBinding  true
-            }
+    buildFeatures {
+        viewBinding true
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17 // Set to 17 or lower
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    kotlinOptions {
+        jvmTarget = '17' // Align with Java version
+    }
+
+    buildFeatures {
+        viewBinding true
+    }
+
+    namespace 'com.sevenminuteworkout'
 }
 
 dependencies {
-
-    def room_version = '2.3.0'
-    def activityVersion = '1.3.1'
+    def room_version = '2.5.0' // Updated Room version
+    def activityVersion = '1.6.1' // Updated Activity version
 
     implementation "androidx.room:room-runtime:$room_version"
     kapt "androidx.room:room-compiler:$room_version"
+    implementation "androidx.room:room-ktx:$room_version"
 
-    implementation("androidx.room:room-ktx:$room_version")
-
-   
     implementation "androidx.activity:activity-ktx:$activityVersion"
 
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
-    implementation 'androidx.appcompat:appcompat:1.1.0'
-    implementation 'androidx.core:core-ktx:1.2.0'
-    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
-    implementation 'com.google.android.material:material:1.0.0'
-    implementation 'androidx.room:room-common:2.4.2'
+    implementation 'androidx.appcompat:appcompat:1.6.1' // Updated AppCompat version
+    implementation 'androidx.core:core-ktx:1.9.0' // Updated Core KTX version
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4' // Updated ConstraintLayout version
+    implementation 'com.google.android.material:material:1.8.0' // Updated Material version
 
-    testImplementation 'junit:junit:4.13'
-    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    testImplementation 'junit:junit:4.13.2' // Updated JUnit version
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5' // Updated AndroidX Test JUnit version
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1' // Updated Espresso version
 }

@@ -6,91 +6,123 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->E:\android\android developer\7MinutesWorkout_v2\app\src\main\AndroidManifest.xml
-9        android:targetSdkVersion="32" />
-9-->E:\android\android developer\7MinutesWorkout_v2\app\src\main\AndroidManifest.xml
+8-->C:\Users\Yash\StudioProjects\fitness_App\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="34" />
+9-->C:\Users\Yash\StudioProjects\fitness_App\app\src\main\AndroidManifest.xml
 10
-11    <application
-11-->E:\android\android developer\7MinutesWorkout_v2\app\src\main\AndroidManifest.xml:6:5-43:19
-12        android:name="com.sevenminuteworkout.WorkOutApp"
-12-->E:\android\android developer\7MinutesWorkout_v2\app\src\main\AndroidManifest.xml:8:9-35
-13        android:allowBackup="true"
-13-->E:\android\android developer\7MinutesWorkout_v2\app\src\main\AndroidManifest.xml:7:9-35
-14        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-14-->[androidx.core:core:1.2.0] C:\Users\Admin\.gradle\caches\transforms-3\cfca8081774c7bc0d0e3a61cac817461\transformed\core-1.2.0\AndroidManifest.xml:24:18-86
-15        android:debuggable="true"
-16        android:icon="@mipmap/ic_launcher"
-16-->E:\android\android developer\7MinutesWorkout_v2\app\src\main\AndroidManifest.xml:9:9-43
-17        android:label="@string/app_name"
-17-->E:\android\android developer\7MinutesWorkout_v2\app\src\main\AndroidManifest.xml:10:9-41
-18        android:roundIcon="@mipmap/ic_launcher_round"
-18-->E:\android\android developer\7MinutesWorkout_v2\app\src\main\AndroidManifest.xml:11:9-54
-19        android:supportsRtl="true"
-19-->E:\android\android developer\7MinutesWorkout_v2\app\src\main\AndroidManifest.xml:12:9-35
-20        android:testOnly="true"
-21        android:theme="@style/AppTheme" >
-21-->E:\android\android developer\7MinutesWorkout_v2\app\src\main\AndroidManifest.xml:13:9-40
-22        <activity
-22-->E:\android\android developer\7MinutesWorkout_v2\app\src\main\AndroidManifest.xml:15:9-18:57
-23            android:name="com.sevenminuteworkout.bmiActivity"
-23-->E:\android\android developer\7MinutesWorkout_v2\app\src\main\AndroidManifest.xml:16:13-40
-24            android:exported="false"
-24-->E:\android\android developer\7MinutesWorkout_v2\app\src\main\AndroidManifest.xml:17:13-37
-25            android:windowSoftInputMode="adjustResize" />
-25-->E:\android\android developer\7MinutesWorkout_v2\app\src\main\AndroidManifest.xml:18:13-55
-26        <activity
-26-->E:\android\android developer\7MinutesWorkout_v2\app\src\main\AndroidManifest.xml:19:9-21:40
-27            android:name="com.sevenminuteworkout.HistoryActivity"
-27-->E:\android\android developer\7MinutesWorkout_v2\app\src\main\AndroidManifest.xml:20:13-44
-28            android:exported="false" />
-28-->E:\android\android developer\7MinutesWorkout_v2\app\src\main\AndroidManifest.xml:21:13-37
-29        <activity
-29-->E:\android\android developer\7MinutesWorkout_v2\app\src\main\AndroidManifest.xml:22:9-24:40
-30            android:name="com.sevenminuteworkout.finish"
-30-->E:\android\android developer\7MinutesWorkout_v2\app\src\main\AndroidManifest.xml:23:13-35
-31            android:exported="false" />
-31-->E:\android\android developer\7MinutesWorkout_v2\app\src\main\AndroidManifest.xml:24:13-37
-32        <activity
-32-->E:\android\android developer\7MinutesWorkout_v2\app\src\main\AndroidManifest.xml:26:9-37:20
-33            android:name="com.sevenminuteworkout.MainActivity"
-33-->E:\android\android developer\7MinutesWorkout_v2\app\src\main\AndroidManifest.xml:27:13-41
-34            android:exported="true"
-34-->E:\android\android developer\7MinutesWorkout_v2\app\src\main\AndroidManifest.xml:28:13-36
-35            android:label="@string/app_name"
-35-->E:\android\android developer\7MinutesWorkout_v2\app\src\main\AndroidManifest.xml:29:13-45
-36            android:screenOrientation="portrait"
-36-->E:\android\android developer\7MinutesWorkout_v2\app\src\main\AndroidManifest.xml:30:13-49
-37            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
-37-->E:\android\android developer\7MinutesWorkout_v2\app\src\main\AndroidManifest.xml:31:13-69
-38            <intent-filter>
-38-->E:\android\android developer\7MinutesWorkout_v2\app\src\main\AndroidManifest.xml:32:13-36:29
-39                <action android:name="android.intent.action.MAIN" />
-39-->E:\android\android developer\7MinutesWorkout_v2\app\src\main\AndroidManifest.xml:33:17-69
-39-->E:\android\android developer\7MinutesWorkout_v2\app\src\main\AndroidManifest.xml:33:25-66
-40
-41                <category android:name="android.intent.category.LAUNCHER" />
-41-->E:\android\android developer\7MinutesWorkout_v2\app\src\main\AndroidManifest.xml:35:17-77
-41-->E:\android\android developer\7MinutesWorkout_v2\app\src\main\AndroidManifest.xml:35:27-74
-42            </intent-filter>
-43        </activity> <!-- TODO(Step 2 - This is added by Default when you create new Activity and can be modified as per your requirement.) -->
-44        <!-- START -->
-45        <activity
-45-->E:\android\android developer\7MinutesWorkout_v2\app\src\main\AndroidManifest.xml:39:9-42:72
-46            android:name="com.sevenminuteworkout.ExerciseActivity"
-46-->E:\android\android developer\7MinutesWorkout_v2\app\src\main\AndroidManifest.xml:40:13-45
-47            android:screenOrientation="portrait"
-47-->E:\android\android developer\7MinutesWorkout_v2\app\src\main\AndroidManifest.xml:41:13-49
-48            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-48-->E:\android\android developer\7MinutesWorkout_v2\app\src\main\AndroidManifest.xml:42:13-69
-49
-50        <service
-50-->[androidx.room:room-runtime:2.3.0] C:\Users\Admin\.gradle\caches\transforms-3\aaedc4eb2c4f9bcd405e44838f2a585e\transformed\room-runtime-2.3.0\AndroidManifest.xml:25:9-28:40
-51            android:name="androidx.room.MultiInstanceInvalidationService"
-51-->[androidx.room:room-runtime:2.3.0] C:\Users\Admin\.gradle\caches\transforms-3\aaedc4eb2c4f9bcd405e44838f2a585e\transformed\room-runtime-2.3.0\AndroidManifest.xml:26:13-74
-52            android:directBootAware="true"
-52-->[androidx.room:room-runtime:2.3.0] C:\Users\Admin\.gradle\caches\transforms-3\aaedc4eb2c4f9bcd405e44838f2a585e\transformed\room-runtime-2.3.0\AndroidManifest.xml:27:13-43
-53            android:exported="false" />
-53-->[androidx.room:room-runtime:2.3.0] C:\Users\Admin\.gradle\caches\transforms-3\aaedc4eb2c4f9bcd405e44838f2a585e\transformed\room-runtime-2.3.0\AndroidManifest.xml:28:13-37
-54    </application>
-55
-56</manifest>
+11    <permission
+11-->[androidx.core:core:1.9.0] C:\Users\Yash\.gradle\caches\transforms-3\f76b17cc15dccc944964d4908850c52a\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+12        android:name="com.sevenminuteworkout.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.9.0] C:\Users\Yash\.gradle\caches\transforms-3\f76b17cc15dccc944964d4908850c52a\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.9.0] C:\Users\Yash\.gradle\caches\transforms-3\f76b17cc15dccc944964d4908850c52a\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.sevenminuteworkout.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.9.0] C:\Users\Yash\.gradle\caches\transforms-3\f76b17cc15dccc944964d4908850c52a\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.9.0] C:\Users\Yash\.gradle\caches\transforms-3\f76b17cc15dccc944964d4908850c52a\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->C:\Users\Yash\StudioProjects\fitness_App\app\src\main\AndroidManifest.xml:6:5-43:19
+18        android:name="com.sevenminuteworkout.WorkOutApp"
+18-->C:\Users\Yash\StudioProjects\fitness_App\app\src\main\AndroidManifest.xml:8:9-35
+19        android:allowBackup="true"
+19-->C:\Users\Yash\StudioProjects\fitness_App\app\src\main\AndroidManifest.xml:7:9-35
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.9.0] C:\Users\Yash\.gradle\caches\transforms-3\f76b17cc15dccc944964d4908850c52a\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+21        android:debuggable="true"
+22        android:icon="@mipmap/ic_launcher"
+22-->C:\Users\Yash\StudioProjects\fitness_App\app\src\main\AndroidManifest.xml:9:9-43
+23        android:label="@string/app_name"
+23-->C:\Users\Yash\StudioProjects\fitness_App\app\src\main\AndroidManifest.xml:10:9-41
+24        android:roundIcon="@mipmap/ic_launcher_round"
+24-->C:\Users\Yash\StudioProjects\fitness_App\app\src\main\AndroidManifest.xml:11:9-54
+25        android:supportsRtl="true"
+25-->C:\Users\Yash\StudioProjects\fitness_App\app\src\main\AndroidManifest.xml:12:9-35
+26        android:theme="@style/AppTheme" >
+26-->C:\Users\Yash\StudioProjects\fitness_App\app\src\main\AndroidManifest.xml:13:9-40
+27        <activity
+27-->C:\Users\Yash\StudioProjects\fitness_App\app\src\main\AndroidManifest.xml:15:9-18:57
+28            android:name="com.sevenminuteworkout.bmiActivity"
+28-->C:\Users\Yash\StudioProjects\fitness_App\app\src\main\AndroidManifest.xml:16:13-40
+29            android:exported="false"
+29-->C:\Users\Yash\StudioProjects\fitness_App\app\src\main\AndroidManifest.xml:17:13-37
+30            android:windowSoftInputMode="adjustResize" />
+30-->C:\Users\Yash\StudioProjects\fitness_App\app\src\main\AndroidManifest.xml:18:13-55
+31        <activity
+31-->C:\Users\Yash\StudioProjects\fitness_App\app\src\main\AndroidManifest.xml:19:9-21:40
+32            android:name="com.sevenminuteworkout.HistoryActivity"
+32-->C:\Users\Yash\StudioProjects\fitness_App\app\src\main\AndroidManifest.xml:20:13-44
+33            android:exported="false" />
+33-->C:\Users\Yash\StudioProjects\fitness_App\app\src\main\AndroidManifest.xml:21:13-37
+34        <activity
+34-->C:\Users\Yash\StudioProjects\fitness_App\app\src\main\AndroidManifest.xml:22:9-24:40
+35            android:name="com.sevenminuteworkout.finish"
+35-->C:\Users\Yash\StudioProjects\fitness_App\app\src\main\AndroidManifest.xml:23:13-35
+36            android:exported="false" />
+36-->C:\Users\Yash\StudioProjects\fitness_App\app\src\main\AndroidManifest.xml:24:13-37
+37        <activity
+37-->C:\Users\Yash\StudioProjects\fitness_App\app\src\main\AndroidManifest.xml:26:9-37:20
+38            android:name="com.sevenminuteworkout.MainActivity"
+38-->C:\Users\Yash\StudioProjects\fitness_App\app\src\main\AndroidManifest.xml:27:13-41
+39            android:exported="true"
+39-->C:\Users\Yash\StudioProjects\fitness_App\app\src\main\AndroidManifest.xml:28:13-36
+40            android:label="@string/app_name"
+40-->C:\Users\Yash\StudioProjects\fitness_App\app\src\main\AndroidManifest.xml:29:13-45
+41            android:screenOrientation="portrait"
+41-->C:\Users\Yash\StudioProjects\fitness_App\app\src\main\AndroidManifest.xml:30:13-49
+42            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+42-->C:\Users\Yash\StudioProjects\fitness_App\app\src\main\AndroidManifest.xml:31:13-69
+43            <intent-filter>
+43-->C:\Users\Yash\StudioProjects\fitness_App\app\src\main\AndroidManifest.xml:32:13-36:29
+44                <action android:name="android.intent.action.MAIN" />
+44-->C:\Users\Yash\StudioProjects\fitness_App\app\src\main\AndroidManifest.xml:33:17-69
+44-->C:\Users\Yash\StudioProjects\fitness_App\app\src\main\AndroidManifest.xml:33:25-66
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->C:\Users\Yash\StudioProjects\fitness_App\app\src\main\AndroidManifest.xml:35:17-77
+46-->C:\Users\Yash\StudioProjects\fitness_App\app\src\main\AndroidManifest.xml:35:27-74
+47            </intent-filter>
+48        </activity> <!-- TODO(Step 2 - This is added by Default when you create new Activity and can be modified as per your requirement.) -->
+49        <!-- START -->
+50        <activity
+50-->C:\Users\Yash\StudioProjects\fitness_App\app\src\main\AndroidManifest.xml:39:9-42:72
+51            android:name="com.sevenminuteworkout.ExerciseActivity"
+51-->C:\Users\Yash\StudioProjects\fitness_App\app\src\main\AndroidManifest.xml:40:13-45
+52            android:screenOrientation="portrait"
+52-->C:\Users\Yash\StudioProjects\fitness_App\app\src\main\AndroidManifest.xml:41:13-49
+53            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+53-->C:\Users\Yash\StudioProjects\fitness_App\app\src\main\AndroidManifest.xml:42:13-69
+54
+55        <service
+55-->[androidx.room:room-runtime:2.5.0] C:\Users\Yash\.gradle\caches\transforms-3\2fed368d3caaf6b153ed020b89b5460f\transformed\room-runtime-2.5.0\AndroidManifest.xml:24:9-28:63
+56            android:name="androidx.room.MultiInstanceInvalidationService"
+56-->[androidx.room:room-runtime:2.5.0] C:\Users\Yash\.gradle\caches\transforms-3\2fed368d3caaf6b153ed020b89b5460f\transformed\room-runtime-2.5.0\AndroidManifest.xml:25:13-74
+57            android:directBootAware="true"
+57-->[androidx.room:room-runtime:2.5.0] C:\Users\Yash\.gradle\caches\transforms-3\2fed368d3caaf6b153ed020b89b5460f\transformed\room-runtime-2.5.0\AndroidManifest.xml:26:13-43
+58            android:exported="false" />
+58-->[androidx.room:room-runtime:2.5.0] C:\Users\Yash\.gradle\caches\transforms-3\2fed368d3caaf6b153ed020b89b5460f\transformed\room-runtime-2.5.0\AndroidManifest.xml:27:13-37
+59
+60        <provider
+60-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Yash\.gradle\caches\transforms-3\05485d74f6e4668fc2b95139b6291979\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+61            android:name="androidx.startup.InitializationProvider"
+61-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Yash\.gradle\caches\transforms-3\05485d74f6e4668fc2b95139b6291979\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+62            android:authorities="com.sevenminuteworkout.androidx-startup"
+62-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Yash\.gradle\caches\transforms-3\05485d74f6e4668fc2b95139b6291979\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+63            android:exported="false" >
+63-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Yash\.gradle\caches\transforms-3\05485d74f6e4668fc2b95139b6291979\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+64            <meta-data
+64-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Yash\.gradle\caches\transforms-3\05485d74f6e4668fc2b95139b6291979\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+65                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+65-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Yash\.gradle\caches\transforms-3\05485d74f6e4668fc2b95139b6291979\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+66                android:value="androidx.startup" />
+66-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Yash\.gradle\caches\transforms-3\05485d74f6e4668fc2b95139b6291979\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+67            <meta-data
+67-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Yash\.gradle\caches\transforms-3\93e0549c62603ef888fde984652113bf\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+68                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+68-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Yash\.gradle\caches\transforms-3\93e0549c62603ef888fde984652113bf\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+69                android:value="androidx.startup" />
+69-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Yash\.gradle\caches\transforms-3\93e0549c62603ef888fde984652113bf\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+70        </provider>
+71    </application>
+72
+73</manifest>

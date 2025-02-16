@@ -1,34 +1,34 @@
 [
     {
-        "merged": "E:\\android\\android developer\\7MinutesWorkout_v2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_row.xml",
-        "source": "E:\\android\\android developer\\7MinutesWorkout_v2\\app\\src\\main\\res\\layout\\item_row.xml"
+        "merged": "com.sevenminuteworkout.app-mergeDebugResources-36:/layout/activity_main.xml",
+        "source": "com.sevenminuteworkout.app-main-39:/layout/activity_main.xml"
     },
     {
-        "merged": "E:\\android\\android developer\\7MinutesWorkout_v2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_history.xml",
-        "source": "E:\\android\\android developer\\7MinutesWorkout_v2\\app\\src\\main\\res\\layout\\activity_history.xml"
+        "merged": "com.sevenminuteworkout.app-mergeDebugResources-36:/layout/activity_exercise.xml",
+        "source": "com.sevenminuteworkout.app-main-39:/layout/activity_exercise.xml"
     },
     {
-        "merged": "E:\\android\\android developer\\7MinutesWorkout_v2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_bmi.xml",
-        "source": "E:\\android\\android developer\\7MinutesWorkout_v2\\app\\src\\main\\res\\layout\\activity_bmi.xml"
+        "merged": "com.sevenminuteworkout.app-mergeDebugResources-36:/layout/bach_conformation_dialog.xml",
+        "source": "com.sevenminuteworkout.app-main-39:/layout/bach_conformation_dialog.xml"
     },
     {
-        "merged": "E:\\android\\android developer\\7MinutesWorkout_v2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\bach_conformation_dialog.xml",
-        "source": "E:\\android\\android developer\\7MinutesWorkout_v2\\app\\src\\main\\res\\layout\\bach_conformation_dialog.xml"
+        "merged": "com.sevenminuteworkout.app-mergeDebugResources-36:/layout/item_row.xml",
+        "source": "com.sevenminuteworkout.app-main-39:/layout/item_row.xml"
     },
     {
-        "merged": "E:\\android\\android developer\\7MinutesWorkout_v2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\items.xml",
-        "source": "E:\\android\\android developer\\7MinutesWorkout_v2\\app\\src\\main\\res\\layout\\items.xml"
+        "merged": "com.sevenminuteworkout.app-mergeDebugResources-36:/layout/items.xml",
+        "source": "com.sevenminuteworkout.app-main-39:/layout/items.xml"
     },
     {
-        "merged": "E:\\android\\android developer\\7MinutesWorkout_v2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_exercise.xml",
-        "source": "E:\\android\\android developer\\7MinutesWorkout_v2\\app\\src\\main\\res\\layout\\activity_exercise.xml"
+        "merged": "com.sevenminuteworkout.app-mergeDebugResources-36:/layout/activity_bmi.xml",
+        "source": "com.sevenminuteworkout.app-main-39:/layout/activity_bmi.xml"
     },
     {
-        "merged": "E:\\android\\android developer\\7MinutesWorkout_v2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_finish.xml",
-        "source": "E:\\android\\android developer\\7MinutesWorkout_v2\\app\\src\\main\\res\\layout\\activity_finish.xml"
+        "merged": "com.sevenminuteworkout.app-mergeDebugResources-36:/layout/activity_history.xml",
+        "source": "com.sevenminuteworkout.app-main-39:/layout/activity_history.xml"
     },
     {
-        "merged": "E:\\android\\android developer\\7MinutesWorkout_v2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
-        "source": "E:\\android\\android developer\\7MinutesWorkout_v2\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "com.sevenminuteworkout.app-mergeDebugResources-36:/layout/activity_finish.xml",
+        "source": "com.sevenminuteworkout.app-main-39:/layout/activity_finish.xml"
     }
 ]
